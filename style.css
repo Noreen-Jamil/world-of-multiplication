@@ -1,0 +1,80 @@
+*{
+			box-sizing: border-box;
+			margin:0;
+			padding: 0;
+		}
+		body,main{
+			display: flex;
+			justify-content: center;
+			
+		}
+
+		body{
+			background:url("images/walltable.jpg") repeat 100% ;
+			object-fit: contain; 
+
+		}
+
+		main{
+			background-color:#FBFCFC;
+			flex-direction: column;
+			padding:3% 5%;
+			margin:5%;
+			align-items: center;
+			border-radius: 15px;
+			box-shadow: 1px 1px 10px 4px #A6ACAF;
+		}
+		input::-webkit-inner-spin-button {
+   		-webkit-appearance: none;
+   		margin: 0;
+   		}
+
+   		main>h1{
+   			
+   			
+   			font-family: 'Volkhov', serif;
+   			color: #76448A;
+   			margin-bottom: 7%;
+   			font-size: 45px;
+   			width:100%;
+   			text-align: center;
+   			text-shadow: 1px 1px 3px #17A589;
+   		}
+
+   		main>h1 span{
+   			color:#17A589;
+   			font-size: 30px;
+   			font-family: 'Pacifico', cursive;
+   			font-family: 'Merienda One', cursive;
+   		}
+   		input,button{
+   			padding:10px 55px ;
+   			outline:none;
+   			border:none;
+   			border-radius: 15px;
+   			box-shadow: 1px 1px 6px 1px #5F6A6A;
+   		}
+   		input{
+   			margin:2% 0;
+   			font-size: 18px;
+   			color:#4A235A;
+   		}
+
+   		button{
+   			margin:3% 0;
+   			font-size: 16px;
+   			font-family: 'Merienda One', cursive;
+   			color:#0E6655;
+   		}
+   		section{
+   			width:100%;
+   			margin:3% 0;
+   			text-align: center;
+   			font-size: 18px;
+   			letter-spacing: 5px;
+   		}
+   		section h1{
+   			letter-spacing: 0;
+   			margin-bottom: 15px;
+   			color:#17A589;
+   		}
