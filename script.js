@@ -1,7 +1,7 @@
 function find(){
 	
 	let sectionParagraph = document.querySelector('section p');
-	
+	sectionParagraph.innerHTML="";
 
 	 let tableName = document.querySelector('#tableName').value;
 	
